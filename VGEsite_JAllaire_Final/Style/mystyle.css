@@ -1,0 +1,477 @@
+			
+/*
+Color Scheme for this website:
+	#48008F Purple, use for main background, primary color
+	#000000 Black, use for most text
+	#D8DD00 Yellow, secondary color
+	#A15CB7 Light-Purple, tertiary color
+	##5512B4 Brighter-Purple, tertiary color
+*/
+			/*Adds style to <body>*/
+			body {
+				font-family: "Century Schoolbook L";
+  				font-size: 1em;
+ 			 	font-weight: normal;
+  				font-family: Arial, Sans-serif; 
+  				color: #000000; /*black*/
+  				text-align: left;
+				width: 1000px;
+				min-width: 720px;
+				/*Box Model*/
+				background-color: rgb(88, 1, 138); /*purple*/
+				margin: 0 auto;
+				}
+
+			/*For background on about.html aka the extras page*/
+			body#extra {
+				background-color:none;
+				background-image: url('../images/spinbutton.png'); 
+				}
+
+			/*Adds style to <h1>*/
+			h1 {
+				font-family: "Century Schoolbook L";
+  				font-size: 1.8em;
+  				font-weight: bold;
+  				color: #000000; /*Black*/
+  				text-align: center;
+				/*Box Model*/
+				background-color: #D8DD00; /*Yellow*/
+    			padding: 0;
+   				border: 1px solid black;
+   				margin: 0;
+				}
+
+			/*Adds style to <h2>*/
+			h2 {
+				font-family: "Century Schoolbook L";
+				font-size: 1.4em;
+				font-weight: bold;
+				color: #D8DD00; /*Yellow*/
+				text-align:center;
+				/*Box Model*/
+				background-color: #5512B4; /*Brighter-Purple*/
+				padding: 0;
+   				border: 1px solid black;
+   				margin: 0;
+				}
+
+			h2#title2 {
+						font-family: "Century Schoolbook L";
+						font-size: 1.4em;
+						font-weight: bold;
+						color: #000000; /*Black*/
+						text-align:center;
+						/*Box Model*/
+						background-color: #D8DD00; /*Yellow*/
+						padding: 0;
+   						border: 1px solid black;
+   						margin: 0;
+						}
+
+			h2#evaluation {
+				font-family: "Century Schoolbook L";
+				font-size: 1.4em;
+				font-weight: bold;
+				color: #2B2794;/*blue*/
+				text-align:left;
+				/*Box Model*/
+				background-color: #5A5493; /*dull-purple*/
+				padding: 0;
+   				border: 0px solid black;
+   				margin: 0;
+				}
+
+			/*Adds style to <h4>*/
+			h4 {
+				font-family: "Century Schoolbook L";
+				font-size:1.1em;
+				font-weight: bold;
+				color: #2B2794; /*faded-blue*/
+				text-align: left;
+				/*Box Model*/
+				
+				}
+
+			h4#center {
+				font-family: "Century Schoolbook L";
+				font-size:1.1em;
+				font-weight: bold;
+				color: #2B2794; /*faded-blue*/
+				text-align: center;
+				/*Box Model*/
+				}
+
+			/*Add style to <div>*/
+			div {
+				font-family: "DejaVu Serif", Georgia;
+				font-size: 1em;
+				font-weight: normal;
+				color: #000000; /*black*/
+				text-align: left;
+				background-color: #C2C800; /*Dull-Yellow*/
+				padding: 0;
+   				border: none;
+   				margin: 0;
+				}
+
+		/*Home page <div>s*/
+			div#who {
+				font-family: "DejaVu Serif", Georgia;
+				font-size: 1.2em;
+				font-weight: normal;
+				color: #000000; /*black*/
+				text-align: left;
+				background-color: #C2C800; /*Dull-Yellow*/
+				padding-bottom: 10px;
+   				border: none;
+   				margin: 0;
+				width: 668px;
+				}
+
+			div#where {
+				font-family: "DejaVu Serif", Georgia;
+				font-size: 1.2em;
+				font-weight: normal;
+				color: #000000; /*black*/
+				text-align: left;
+				background-color: #C2C800; /*Dull-Yellow*/
+				padding-bottom: 30px;
+   				border: none;
+   				margin: 0;
+				width: 668px;
+				}
+			
+			div#other {
+				font-family: "DejaVu Serif", Georgia;
+				font-size: 1.2em;
+				font-weight: normal;
+				color: #000000; /*black*/
+				text-align: left;
+				background-color: #C2C800; /*Dull-Yellow*/
+				padding: 0;
+   				border: none;
+   				margin-left: 670px;
+				margin-top: -399px;
+				width: 330px;
+				position: absolute;
+				padding-bottom: 72px;
+				}
+			/*End of home page <div>s*/
+			
+			/*<div> for staff page (Staff member <div>s near bottom of style page)*/
+			div#staffinfo {
+				font-family: "DejaVu Serif", Georgia;
+				font-size: 1em;
+				font-weight: normal;
+				color: #000000; /*black*/
+				text-align: left;
+				background-color: #C2C800; /*Dull-Yellow*/
+				padding-bottom: 548px;
+   				border: none;
+				margin-left: 780px;
+				margin-top: -770px;
+				width: 220px;
+				}
+
+			/*Discord <div>s*/
+			div#whatisdiscord {
+				font-family: "DejaVu Serif", Georgia;
+				font-size: 1.2em;
+				font-weight: normal;
+				color: #000000; /*black*/
+				text-align: left;
+				background-color: #C2C800; /*Dull-Yellow*/
+				padding: 0;
+   				border: none;
+   				margin: 0;
+				}
+
+			div#bigbutton {
+				font-family: "DejaVu Serif", Georgia;
+				font-size: 1em;
+				font-weight: normal;
+				color: #000000; /*black*/
+				text-align: left;
+				background-color: #C2C800; /*Dull-Yellow*/
+				padding-bottom: 72px;
+   				border: none;
+   				margin: 0;
+				width: 1000px;
+				position: absolute;
+				}
+
+			/*News <div>s*/
+			div#upcoming {
+				text-align: center;
+				font-size:1.2em;
+				}
+			
+			div#future {
+				font-size:1.2em;
+				}
+				
+			/*Adds style to <p>*/
+			p {
+				font-family: "Century Schoolbook L";
+				font-size: 1em;
+				font-weight: normal;
+				width: em;
+				color: #041F37; /*darker-blue*/
+				text-align: left;
+				padding-left: 10px;
+				/*Box Model*/
+				}
+
+/*Various Links Styles*/
+			
+			a:hover {
+					background-color: #FFFFFF; /*blue*/
+   					color: #000000; /*light-purple*/
+					padding: 0px 0px;
+					}
+
+/*Buttons*/
+			/*Home Page buttons*/
+			a#discordbutton {
+						position: absolute;
+  						top: 50%;
+  						left: 50%;
+  						transform: translate(-50%, -110%);
+  						-ms-transform: translate(-50%, -110%);
+  						background-color: #555;
+  						color: white;
+  						font-size: 16px;
+  						padding: 6px 14px;
+  						border: none;
+  						cursor: pointer;
+  						border-radius: 5px;
+						}
+
+			a#spinbutton {
+						position: absolute;
+  						top: 100%;
+  						left: 50%;
+  						transform: translate(-50%, -140%);
+  						-ms-transform: translate(-50%, -140%);
+  						background-color: #555;
+  						color: white;
+  						font-size: 16px;
+  						padding: 6px 14px;
+  						border: none;
+  						cursor: pointer;
+  						border-radius: 5px;
+						}
+				
+			a#discordbutton:hover, a#discordbutton:focus, a#discordbutton:active {
+							 background-color:#003166;
+							 color:none;
+							}
+
+			a#spinbutton:hover, a#spinbutton:focus, a#spinbutton:active {
+							 background-color:#4B0096;
+							 color:none;
+							}
+
+			/*Discord Page buttons*/
+			a#discordbutton2 {
+				  position: absolute;
+				  top: 50%;
+				  left: 50%;
+				  transform: translate(-50%, -35%);
+				  -ms-transform: translate(-50%, -35%);
+				  background-color: #555;
+				  color: white;
+				  font-size: 16px;
+				  padding: 6px 14px;
+				  border: none;
+				  cursor: pointer;
+				  border-radius: 5px;
+				}
+
+				a#discordbutton2:hover, a#discordbutton2:focus, a#discordbutton2:active {
+					background-color:#003166;
+					color:none;
+				   }
+	
+
+/*Navigation Menu Styles*/
+		
+			div#nav {
+				font-family: "Century Schoolbook L";
+				font-size: 1em;
+				font-weight: normal;
+				width: 0 auto;
+				color: #601268; /*Strong-Purple*/
+				text-align: left;
+				/*Box Model*/
+				background-color: #601268; /*Strong-Purple*/
+				padding: 0px 0px;
+   				border: 1px solid black;
+   				margin-top: -400px;
+				margin-left: 0px;
+				position: absolute;
+				}
+
+			nav#index {
+					margin-top: -10px;
+					margin-left: 0px;
+					}
+
+			/*Normal Display*/
+			ul {
+    			list-style-type: none;
+    			margin: 0;
+   				padding: 0;
+    			width: 1000px;
+				min-width: 720px;
+   				background-color: #5F00A7; /*light-purple*/
+				overflow: hidden;
+				}
+
+			li {
+				float: left;
+				}
+				
+			li a {
+				display: block;
+    			color: #D8DD00; /*yellow*/
+    			padding: 16px;
+				text-align: center;
+   				text-decoration: none;
+				font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+				width: 218px;
+				}
+
+			li a#home {
+				display: block;
+				color: #D8DD00; /*yellow*/
+				padding: 16px;
+				text-align: center;
+				text-decoration: none;
+				font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+				width: 168px;
+				}
+			
+			/* Change the link color on hover */
+			li a:hover, li a:focus, li a:active {
+   					background-color: #592172; /*dark-purple*/
+   					color: #D8DD00; /*yellow*/
+					padding: 16px 16px;
+					clear: left;
+						}
+			
+			a:hover, a:focus, a:active {
+					
+					}
+
+/*Staff Roles (Staff page)*/
+			div#president {							
+							text-align: center;
+							/*Box Model*/
+							background-color: #A15CB7; /*Light-Purple*/
+							padding: 0;
+   							border: none;
+   							margin: 0;
+							width:250px;
+							min-width:250px;
+							height: 250px;
+							}
+			div#vicepres {							
+							text-align: center;
+							/*Box Model*/
+							background-color: #A15CB7; /*Light-Purple*/
+							padding: 0;
+   							border: none;
+   							margin-top: -250px;
+							margin-left: 260px;
+							width:250px;
+							min-width:250px;
+							height: 250px;
+							}
+			div#treasurer {							
+							text-align: center;
+							/*Box Model*/
+							background-color: #A15CB7; /*Light-Purple*/
+							padding: 0;
+   							border: none;
+   							margin-top: -250px;
+							margin-left: 520px;
+							width:250px;
+							min-width:250px;
+							height: 250px;
+							}
+			div#secretary {
+							text-align: center;
+							/*Box Model*/
+							background-color: #A15CB7; /*Light-Purple*/
+							padding: 0;
+   							border: none;
+   							margin-top: 10px;
+							margin-left: 0px;
+							width:250px;
+							min-width:250px;
+							height: 250px;
+							}
+			div#pubrel {
+							text-align: center;
+							/*Box Model*/
+							background-color: #A15CB7; /*Light-Purple*/
+							padding: 0;
+   							border: none;
+   							margin-top: -250px;
+							margin-left: 260px;
+							width:250px;
+							min-width:250px;
+							height: 250px;
+							}
+			div#graphdes {
+							text-align: center;
+							/*Box Model*/
+							background-color: #A15CB7; /*Light-Purple*/
+							padding: 0;
+   							border: none;
+   							margin-top: -250px;
+							margin-left: 520px;
+							width:250px;
+							min-width:250px;
+							height: 250px;
+							}
+			div#eventco {
+							text-align: center;
+							/*Box Model*/
+							background-color: #A15CB7; /*Light-Purple*/
+							padding: 0;
+   							border: none;
+							margin-top: 10px;
+							margin-left: 0px;
+							width:250px;
+							min-width:250px;
+							height: 250px;
+							}
+			div#mod1 {
+							text-align: center;
+							/*Box Model*/
+							background-color: #A15CB7; /*Light-Purple*/
+							padding: 0;
+   							border: none;
+   							margin-top: -250px;
+							margin-left: 520px;
+							width:250px;
+							min-width:250px;
+							height: 250px;
+							}
+			div#mod2 {
+							text-align: center;
+							/*Box Model*/
+							background-color: #A15CB7; /*Light-Purple*/
+							padding: 0;
+   							border: none;
+   							margin-top: -250px;
+							margin-left: 260px;
+							width:250px;
+							min-width:250px;
+							height: 250px;
+							}
+
+			

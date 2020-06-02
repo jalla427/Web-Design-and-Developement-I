@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "DTD/xhtml1-strict.dtd">
+
+<!--Web Portfolio Page made by Jack Allaire, CNMT 210 section 2-->
+
+<html>
+		<head>
+			<!--Java script displays a message when using a link to leave the website-->
+			<script type="text/javascript">
+			function confirm_alert(node) {
+    		return confirm("Are you sure you want to leave this page?");
+			}
+			</script>
+		
+			<!--Sets favicon-->
+			<link rel="shortcut icon" href="images/favicon.png">
+			<meta charset="utf-8">
+			<!--Sets tab title-->
+			<title>UWSP - Video Game Enthusiasts</title>
+		
+   			<!--CSS code adds style to things, link to external style sheet-->
+   			<link type="text/css" rel="stylesheet" href="Style/mystyle.css" media="screen">
+		</head>
+		
+		<body>
+	
+	<!--Banner-->
+		<img src="images/banner.png"width="1000px" height="150px" style="border:none" alt="VGE Banner"/>	
+		
+	<!--Navigation bar-->	
+	<nav id="index">
+		<ul>
+			<li><a id="home" href="index.html">Home</a></li>
+			<li><a id="home" href="news.html">News</a></li>
+			<li><a id="home" href="staff.html">Staff</a></li>
+			<li><a id="home" href="discord.html">Discord</a></li>
+			<li><a id="home" href="about.html">Extra</a></li>
+		</ul>
+	</nav>
+	
+	<br />
+	
+	<!--About VGE-->
+	<div id="who">
+		<h2>Who We Are</h2>
+			<p>
+				Video Game Enthusiasts is a social gathering for all varieties of gamers. If you want to talk and play with fellow video game enthusiasts, this is the place for you. Feel free to bring consoles, computers, handheld devices, or just yourself. The club does not currently provide consoles but it's expected of members using our few provided televisions to play multiplayer games and welcome any who wish to join in the fun. 
+			</p>
+	</div>
+	
+	<br />
+
+	<!--Location details-->
+	<div id="where">
+		<h2>Where To Find Us</h2>
+			<p>
+				Video Game Enthusiasts meet in room 374 on Tuesdays and room 235 on Thursdays each week in the DUC. In the event of a short notice room change, members of our <a href="discord.html">Discord</a> will be notified and a sign will be left on our normal room door to redirect those not in Discord.
+			</p>
+	</div>
+	
+	<div id="other">
+		<h2>Other Locations</h2>
+		
+		<!--Discord Server-->
+			<h4 id="center">Talk to us on Discord!</h4>
+			<!--Discord Button-->
+			<br />
+			<a id="discordbutton" href="https://discord.gg/GQyV2Va" onclick="return confirm_alert(this);">
+				<img src="images/discordbutton.png"width="130px" height="70px" style="border:none" alt="Discord Link"/>
+			</a>
+			<br /><br /><br />
+			
+		<!--Spin Page-->
+			<h4 id="center">Visit Our Spin Page!</h4>
+			<!--Spin Button-->
+			
+			<a id="spinbutton" href="https://spin.uwsp.edu/organization/vge" onclick="return confirm_alert(this);">
+				<img src="images/spinbutton.png"width="130px" height="70px" style="border:none" alt="Spin Link"/>
+			</a>
+			<br /><br />
+	</div>
+	
+		</body>
+		
+</html>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "DTD/xhtml1-strict.dtd">
+
+<!--Web Portfolio Page made by Jack Allaire, CNMT 210 section 2-->
+
+<html>
+
+		<head>
+			<!--Clock script-->
+			<script>
+				function updateTime() 
+				{ 
+					var now = new Date();
+					var hours = now.getHours();
+					var minutes = now.getMinutes();
+    				var seconds = now.getSeconds();
+
+					if (minutes < 10) 
+					{ 
+						minutes = '0' + minutes;
+  					}
+  					if (seconds < 10) 
+					{ 
+						seconds = '0' + seconds;
+  					}				
+  					if (hours >= 12 && hours < 24) 
+					{ 
+	  					var timeOfDay = 'pm';
+  					}
+  					else 
+					{ 
+						var timeOfDay = 'am'; 
+					}
+  					if (hours > 12) 
+					{ 
+    					hours = hours - 12;
+  					}
+    			var currentTime = hours + ':' + minutes + ':' + seconds;    
+    			var myClock = document.getElementById('clock');
+    			myClock.innerHTML = currentTime;
+  				}  
+  		</script>
+  		
+  		<style>
+			div#clock 
+			{ 
+      		font-size: 2em;
+			background-color: #EBF5FF;
+   			border: 2px solid black;
+			margin-top: 0px;
+			margin-left: 0px;
+			width: 112px;
+			display: block;
+   			}
+		</style>
+
+			<link rel="shortcut icon" href="images/favicon.png">
+			<meta charset="utf-8">
+			<!--Sets tab title-->
+			<title>UWSP - VGE - About</title>
+		
+   			<!--CSS code adds style to things, link to external style sheet-->
+   			<link type="text/css" rel="stylesheet" href="Style/mystyle.css" media="screen">
+		</head>
+		
+		<body id="extra">
+			 <!--Clock Updater-->
+			    <body onload="setInterval('updateTime()',1000)">
+
+			<!--Main title-->
+			<h1>Final Project Extras</h1>
+			
+			<!--Nav bar-->
+			<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="news.html">News</a></li>
+			<li><a href="staff.html">Staff</a></li>
+			<li><a href="discord.html">Discord</a></li>
+		</ul>
+	</nav>
+	
+	<br />
+
+	<!--Clock div-->
+	<div id="clock">
+			<body onload="updateTime()"></body>
+	</div>
+
+	<br />
+
+	<!--Table-->
+	<div>
+		<h2>Here is a table</h2>
+			<!--Code for table-->
+			<table>
+				<caption>The client felt as though a table was unnecessary</caption>
+				<thead>
+					<tr>
+						<td> </td>
+						<th scope="col">A thing</th>
+						<th scope-"col">Another thing</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope-"row"></th>
+						<td>more things</td>
+						<td>so many things</td>
+					</tr>
+				    <tr>
+						<th scope-"row"></th>
+						<td>enough things</td>
+						<td>table things</td>
+					</tr>
+					<tr>
+						<th scope-"row"></th>
+						<td>out of things</td>
+						<td>actually we're not</td>
+					</tr>
+					<tr>
+						<th scope-"row"></th>
+						<td>i've got plenty</td>
+						<td>table=required</td>
+					</tr>
+			</table>
+			
+		</div>
+		</body>
+		
+</html>

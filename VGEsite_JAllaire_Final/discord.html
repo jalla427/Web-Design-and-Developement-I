@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "DTD/xhtml1-strict.dtd">
+
+<!--Web Portfolio Page made by Jack Allaire, CNMT 210 section 2-->
+
+<html>
+
+		<head>
+			<!--Java script displays a message when using a link to leave the website-->
+			<script type="text/javascript">
+			function confirm_alert(node) {
+    		return confirm("Are you sure you want to leave this page?");
+			}
+			</script>
+		
+			<link rel="shortcut icon" href="images/favicon.png">
+			<meta charset="utf-8">
+			<!--Sets tab title-->
+			<title>UWSP - Video Game Enthusiasts</title>
+		
+   			<!--CSS code adds style to things, link to external style sheet-->
+   			<link type="text/css" rel="stylesheet" href="Style/mystyle.css" media="screen">
+		</head>
+		
+		<body>
+			<h1>Video Game Enthusiasts Official Discord Server</h1>
+			
+			<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="news.html">News</a></li>
+			<li><a href="staff.html">Staff</a></li>
+			<li><a href="discord.html">Discord</a></li>
+		</ul>
+	</nav>
+	
+	<br />
+	
+	<!--Description block-->
+	<div id="whatisdiscord">
+		<h2>What is Discord?</h2>
+		<p>Discord is a free online chat site with both text and talk services. 
+			It's our primary way of sending out announcements and responding to 
+			members quickly and more efficiently than we can via email. It also 
+			features numerous text and voice channels to talk to your VGE friends 
+			about video game related topics and share video game related news.</p>
+	</div>		
+			
+	<!--Discord button block-->
+	<div id="bigbutton">
+		<h1>Come Chat With Us!</h1>
+			<a id="discordbutton2" href="https://discord.gg/GQyV2Va" onclick="return confirm_alert(this);">
+				<img src="images/discordbutton.png"width="186px" height="100px" style="border:none" alt="Discord Link"/>
+			</a>
+			<br /><br /><br /><br />
+	</div>
+		</body>
+		
+</html>
